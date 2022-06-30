@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições</title>
+    <style>
+        body{
+          background-image: linear-gradient(to right, rgba(77, 88, 236, 0.692), rgba(245, 245, 43, 0.733));
+        }
+        div{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <h3>Veja se você é Brasileiro ou estrangeiro</h3>
+    <div>
+        Qual pais você vive ? <input type="text" name="txtpp" id="txtpp">
+        <input type="button" value="verificar" onclick="calcular()">
+    </div>
+    <div id="res">
+
+    </div>
+
+  
+     <script>
+        function calcular(){
+            var txtp = window.document.getElementById("txtpp")
+            var res = window.document.getElementById("res")
+            var pais =String(txtp.value)
+            res.innerHTML= ` você é do pais ${pais} `
+            if(pais=="Brasil"){
+            res.innerHTML+= `Brasileiro ` 
+            }
+            else{
+                res.innerHTML+= `estrangeiro `
+            }
+        }
+          
+        
+    </script>
+    
+</body>
+</html>
