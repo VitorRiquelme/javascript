@@ -1,6 +1,10 @@
-let num=[5,6,7,3,2,1,8,4,9]
+let nota =39
 
-num.sort()
-num.reverse()
+if(nota>=60){
+    console.log("Você foi aprovado")
+}else if(nota>=40){
+    console.log("Recuperação")
+}else{
+    console.log("reprovado")
+}
 
-console.log(num)
