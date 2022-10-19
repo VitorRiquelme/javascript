@@ -1,0 +1,1 @@
+//Variavel do tipo string:
