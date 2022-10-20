@@ -17,3 +17,16 @@ if(!(1>2)){//!() Inverte o valor da expressão para false caso seja true e vise 
 }else(
   document.write('iAE')
 )
+document.write('<br>')
+
+var nota = prompt('digite sua nota')
+var media = 6
+var faltas = prompt('digite o seu numero de faltas')
+var faltasmax = 50
+
+
+if(nota>= media && faltas <=faltasmax){
+  document.write('aprovado')
+}else{
+  document.write('Reprovado')
+}
