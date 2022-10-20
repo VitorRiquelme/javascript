@@ -7,3 +7,10 @@
 // Maior (>) - verifica se o valor da esquerda é maior que o valor da direita
 // Menor igual (<=) verifica se o valor da esquerda é menor ou igual o valor da direita
 // Maior igual (=>) verifica se o valor da esquerda é maior ou igual o valor da direita
+var media = prompt('Digite sua nota em matematica')
+var nota = 40
+if(nota >= 60){
+  document.write("Passei de anooo")
+}else{
+  document.write("Recuperação")
+}
