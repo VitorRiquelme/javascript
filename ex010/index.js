@@ -1,12 +1,14 @@
 //swsitch em javascript
-var opcao = 2 
-switch(opcao){
-  case 1: texting
-  break
-  
-  case 2: number
+var para = 2
+switch(para){
+  case 1 :
+  console.log('sou gay')
   break
 
-  default: sougay 
+  case 2:
+  console.log('sou homi')
   break
+
+  default:
+
 }
