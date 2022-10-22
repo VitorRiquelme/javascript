@@ -6,4 +6,3 @@
 //Módulo(%) - Resto existente de uma operação de divisão
 //(++) - Pré/pós incremento
 //(--) - Pré/pós decremento
-.
