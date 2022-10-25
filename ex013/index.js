@@ -32,5 +32,7 @@
     document.write('olá tudo bem ?')
   }
   vitor()*/
-  
+
+
+  //funções de callback
   
