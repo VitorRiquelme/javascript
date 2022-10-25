@@ -28,8 +28,9 @@
     return x
   }*/
 
-  var vitor = function(){
+  /*var vitor = function(){
     document.write('olá tudo bem ?')
   }
-  vitor()
+  vitor()*/
+  
   
