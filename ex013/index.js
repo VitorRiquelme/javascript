@@ -35,4 +35,20 @@
 
 
   //funções de callback 
+  function exibirArtigo(id, callbacksucesso, callbackerro){
+    if(true){
+      callbacksucesso('titulo', 'funções são chatas')
+    }else{
+      callbackerro('erro')
+    }
+  }
   
+  var callbacksucesso =  function(titulo, descricao){
+    document.write(titulo)
+    document.write(descricao)
+  }
+  var callbackerro = function(erro){
+    document.write(erro)
+  }
+
+  exibirArtigo(1, callbacksucesso, callbackerro)
