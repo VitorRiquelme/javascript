@@ -35,7 +35,7 @@
 
 
   //funções de callback 
-  function exibirArtigo(id, callbacksucesso, callbackerro){
+ /* function exibirArtigo(id, callbacksucesso, callbackerro){
     if(true){
       callbacksucesso('titulo', 'funções são chatas')
     }else{
@@ -51,4 +51,8 @@
     document.write(erro)
   }
 
-  exibirArtigo(1, callbacksucesso, callbackerro)
+  exibirArtigo(1, callbacksucesso, callbackerro)*/
+
+  //length
+  document.write('vitoriquleme'.length)
+
