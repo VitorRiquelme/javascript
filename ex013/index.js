@@ -113,7 +113,7 @@
 
  //funções de callback
   
-  function exibirArtigo(id, callbacksucesso, callbackerro){
+  /*function exibirArtigo(id, callbacksucesso, callbackerro){
     if(true){
       callbacksucesso('Ola tudo bem',' Aqui quem fala é o edu')
     }else{
@@ -128,4 +128,10 @@
     document.write(erro)
   }
 
-  exibirArtigo(1,callbacksucesso, callbackerro)
+  exibirArtigo(1,callbacksucesso, callbackerro)*/
+
+  //Propiedade chama length
+
+  var nome = 'vitor riquelme'
+
+  console.log(nome.toUpperCase())
