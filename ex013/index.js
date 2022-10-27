@@ -59,5 +59,19 @@
 
   //= é um sinal de atribuação
 
-  
+  //Função void não retorna nada para quem fez a chamada
+  /*function calcularAreaTerreno ( largura, comprimento){
+    var area = largura * comprimento
+  }*/
+  function calcularAreaTerreno ( largura, comprimento){
+    var area = largura * comprimento
+    
+    return area
+  }
 
+  var largura = prompt('Dgite uma largura')
+  var comprimento = prompt('Digite um comprimento')
+
+  var area = calcularAreaTerreno(largura, comprimento)
+
+  document.write('o terreno possui ' + area + ' metros quadrados')
