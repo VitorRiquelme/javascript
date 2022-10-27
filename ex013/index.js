@@ -63,7 +63,8 @@
   /*function calcularAreaTerreno ( largura, comprimento){
     var area = largura * comprimento
   }*/
-  function calcularAreaTerreno ( largura, comprimento){
+
+  /*function calcularAreaTerreno ( largura, comprimento){
     var area = largura * comprimento
     
     return area
@@ -74,4 +75,13 @@
 
   var area = calcularAreaTerreno(largura, comprimento)
 
-  document.write('o terreno possui ' + area + ' metros quadrados')
+  document.write('o terreno possui ' + area + ' metros quadrados')*/
+
+  /*function soma(a, b){
+    return a + b
+  }
+  
+  console.log(soma(12,10))*/
+
+  //escopo global é o escopo do java script como um todo
+  //escopo de fução referese a um escopo dentro de uma função
