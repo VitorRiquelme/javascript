@@ -165,4 +165,15 @@
   document.write(data.getMinutes())*/
 
   var data = new Date()
+
+  document.write(data.toDateString()+ '<br>')
+  data.setDate(data.getDate() + 1)
+  document.write(data.toDateString()+ '<br>')
+
   
+  data.setMonth(data.getMonth()+ 2)
+  document.write(data.toDateString()+ '<br>')
+
+  
+  data.setFullYear(data.getFullYear()+ 3)
+  document.write(data.toDateString())
