@@ -1,5 +1,5 @@
 
-/*function CalcularAreaTerreno (largura, comprimento){
+function CalcularAreaTerreno (largura, comprimento){
   var area = largura*comprimento
   
   return area
@@ -8,16 +8,16 @@
   var largura = prompt('digite a largura')
   var comprimento = prompt('digira o comprimento')
   var area = CalcularAreaTerreno(largura,comprimento)
-  document.write('caralho ' + area)*/
+  document.write('caralho ' + area)
 
-  /*function soma (a,b){
+  function soma (a,b){
     return a + b
   }
-  console.log(soma(7,2))*/
+  console.log(soma(7,2))
 
   //3 escopos em javascript: global, função e o de bloco
 
-  /*var serie = 'friends'
+  var serie = 'friends'
 
   if(true){//Variaves dentro do escopo global e de bloco podem ser chamadas a qualquer hora 
     document.write(serie)
@@ -26,16 +26,16 @@
   function x(){//variaves dentro de funções não podem ser chamadas pois só pertecem a eles
     document.write('iae')
     return x
-  }*/
+  }
 
-  /*var vitor = function(){
+  var vitor = function(){
     document.write('olá tudo bem ?')
   }
-  vitor()*/
+  vitor()
 
 
   //funções de callback 
- /* function exibirArtigo(id, callbacksucesso, callbackerro){
+  function exibirArtigo(id, callbacksucesso, callbackerro){
     if(true){
       callbacksucesso('titulo', 'funções são chatas')
     }else{
@@ -51,7 +51,7 @@
     document.write(erro)
   }
 
-  exibirArtigo(1, callbacksucesso, callbackerro)*/
+  exibirArtigo(1, callbacksucesso, callbackerro)
 
   //length
 
@@ -60,11 +60,11 @@
   //= é um sinal de atribuação
 
   //Função void não retorna nada para quem fez a chamada
-  /*function calcularAreaTerreno ( largura, comprimento){
+  function calcularAreaTerreno ( largura, comprimento){
     var area = largura * comprimento
-  }*/
+  }
 
-  /*function calcularAreaTerreno ( largura, comprimento){
+  function calcularAreaTerreno ( largura, comprimento){
     var area = largura * comprimento
     
     return area
@@ -75,13 +75,13 @@
 
   var area = calcularAreaTerreno(largura, comprimento)
 
-  document.write('o terreno possui ' + area + ' metros quadrados')*/
+  document.write('o terreno possui ' + area + ' metros quadrados')
 
-  /*function soma(a, b){
+  function soma(a, b){
     return a + b
   }
   
-  console.log(soma(12,10))*/
+  console.log(soma(12,10))
 
   //escopo global é o escopo do java script como um todo
   //escopo de fução referese a um escopo dentro de uma função
@@ -89,7 +89,7 @@
 
   //escopo global
 
-  /*var serie = 'friends '
+  var serie = 'friends '
 
   //escopo de bloco
   if(true){
@@ -101,19 +101,19 @@
   function x(){
     document.write(serie)
   }
- x()*/
+ x()
 
  //funções anonimas
 
- /*var exiber = function(nome){
+ var exiber = function(nome){
   document.write('ola' + nome + ' vsfd')
  }
 
- exiber('vitor')*/
+ exiber('vitor')
 
  //funções de callback
   
-  /*function exibirArtigo(id, callbacksucesso, callbackerro){
+  function exibirArtigo(id, callbacksucesso, callbackerro){
     if(true){
       callbacksucesso('Ola tudo bem',' Aqui quem fala é o edu')
     }else{
@@ -128,43 +128,43 @@
     document.write(erro)
   }
 
-  exibirArtigo(1,callbacksucesso, callbackerro)*/
+  exibirArtigo(1,callbacksucesso, callbackerro)
 
   //Propiedade chama length
 
-  /*var nome = 'vitor riquelme'
+  var nome = 'vitor riquelme'
 
-  console.log(nome.toUpperCase())*/
+  console.log(nome.toUpperCase())
 
   //funções nativas para operção matematicas
 
   //Math.ceil() arredondao o numero fracionado para o valor maior
-  /*var x = Math.ceil(10.380)
-  document.write(x)*/
+  var x = Math.ceil(10.380)
+  document.write(x)
 
   //Math.floor() arredonda o numero fracionado para o valor menor
-  /*var x = Math.floor(10.380)
-  document.write(x)*/
+  var x = Math.floor(10.380)
+  document.write(x)
 
   //Math.round() Arredonda o numero de acordo com o valor da fração(se o valo for 4 arredonda menor acima maio)
-  /*var x = Math.round(10.580)
-  document.write(x)*/
+  var x = Math.round(10.580)
+  document.write(x)
 
   //Math.random() adiciona um numero aleatorio entre 0 e 1
-  /*var x = Math.random()
-  document.write(x)*/
+  var x = Math.random()
+  document.write(x)
 
   //Funções nativas para manipular datas
   
-  /*var data = new Date()
+  var data = new Date()
 
   document.write(data.getDate()+ '/')
   document.write(data.getMonth() + 1 + '/')
   document.write(data.getFullYear()+ '/')
   document.write(data.getHours()+'/')
-  document.write(data.getMinutes())*/
+  document.write(data.getMinutes())
 
-  /*var data = new Date()
+  var data = new Date()
 
   document.write(data.toDateString()+ '<br>')
   data.setDate(data.getDate() + 1)
@@ -176,7 +176,7 @@
 
   
   data.setFullYear(data.getFullYear()+ 3)
-  document.write(data.toDateString())*/
+  document.write(data.toDateString())
 
   var data1 = new Date(2017, 0, 15)
 
