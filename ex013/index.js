@@ -110,3 +110,9 @@
  }
 
  exiber('vitor')*/
+
+ //funções de callback
+  
+  function exibirArtigo(){
+    
+  }
