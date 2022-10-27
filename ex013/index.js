@@ -132,6 +132,12 @@
 
   //Propiedade chama length
 
-  var nome = 'vitor riquelme'
+  /*var nome = 'vitor riquelme'
 
-  console.log(nome.toUpperCase())
+  console.log(nome.toUpperCase())*/
+
+  //funções nativas para operção matematicas
+
+  //Math.ceil() arredondao o numero fracionado
+  var x = Math.ceil(10.380)
+  document.write(x)
