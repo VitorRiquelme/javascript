@@ -164,7 +164,7 @@
   document.write(data.getHours()+'/')
   document.write(data.getMinutes())*/
 
-  var data = new Date()
+  /*var data = new Date()
 
   document.write(data.toDateString()+ '<br>')
   data.setDate(data.getDate() + 1)
@@ -176,4 +176,18 @@
 
   
   data.setFullYear(data.getFullYear()+ 3)
-  document.write(data.toDateString())
+  document.write(data.toDateString())*/
+
+  var data1 = new Date(2017, 0, 15)
+
+  var data2 = new Date(2017, 1 , 23)
+
+  document.write(data1.toDateString())
+  document.write('<br>')
+  document.write(data2.toDateString())
+  document.write('<br>') 
+  document.write(data1.getTime())
+  document.write('<br>') 
+  document.write(data2.getTime())
+  document.write('<br>') 
+  document.write(Math.abs(data1.getTime() - data2.getTime()))
