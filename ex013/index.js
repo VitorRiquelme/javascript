@@ -138,6 +138,18 @@
 
   //funções nativas para operção matematicas
 
-  //Math.ceil() arredondao o numero fracionado
-  var x = Math.ceil(10.380)
+  //Math.ceil() arredondao o numero fracionado para o valor maior
+  /*var x = Math.ceil(10.380)
+  document.write(x)*/
+
+  //Math.floor() arredonda o numero fracionado para o valor menor
+  /*var x = Math.floor(10.380)
+  document.write(x)*/
+
+  //Math.round() Arredonda o numero de acordo com o valor da fração(se o valo for 4 arredonda menor acima maio)
+  /*var x = Math.round(10.580)
+  document.write(x)*/
+
+  //Math.random() adiciona um numero aleatorio entre 0 e 1
+  var x = Math.random()
   document.write(x)
