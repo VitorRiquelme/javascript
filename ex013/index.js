@@ -156,10 +156,13 @@
 
   //Funções nativas para manipular datas
   
-  var data = new Date()
+  /*var data = new Date()
 
   document.write(data.getDate()+ '/')
   document.write(data.getMonth() + 1 + '/')
   document.write(data.getFullYear()+ '/')
   document.write(data.getHours()+'/')
-  document.write(data.getMinutes())
+  document.write(data.getMinutes())*/
+
+  var data = new Date()
+  
