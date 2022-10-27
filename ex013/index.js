@@ -113,6 +113,19 @@
 
  //funções de callback
   
-  function exibirArtigo(){
-    
+  function exibirArtigo(id, callbacksucesso, callbackerro){
+    if(true){
+      callbacksucesso('Ola tudo bem',' Aqui quem fala é o edu')
+    }else{
+      callbackerro('erro viadooo')
+    }
   }
+
+  var callbacksucesso = function(titulo,descricao){
+    document.write(titulo, descricao)
+  }
+  var callbackerro = function(erro){
+    document.write(erro)
+  }
+
+  exibirArtigo(1,callbacksucesso, callbackerro)
