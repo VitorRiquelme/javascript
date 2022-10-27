@@ -151,5 +151,15 @@
   document.write(x)*/
 
   //Math.random() adiciona um numero aleatorio entre 0 e 1
-  var x = Math.random()
-  document.write(x)
+  /*var x = Math.random()
+  document.write(x)*/
+
+  //Funções nativas para manipular datas
+  
+  var data = new Date()
+
+  document.write(data.getDate()+ '/')
+  document.write(data.getMonth() + 1 + '/')
+  document.write(data.getFullYear()+ '/')
+  document.write(data.getHours()+'/')
+  document.write(data.getMinutes())
