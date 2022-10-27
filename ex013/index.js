@@ -85,3 +85,28 @@
 
   //escopo global é o escopo do java script como um todo
   //escopo de fução referese a um escopo dentro de uma função
+  //escopo de bloco são dentro de um comando  ex: if e switch
+
+  //escopo global
+
+  /*var serie = 'friends '
+
+  //escopo de bloco
+  if(true){
+    var serie2 =  'game of thornes '
+    document.write(serie)
+  }
+    document.write(serie2)
+  //escopo de função
+  function x(){
+    document.write(serie)
+  }
+ x()*/
+
+ //funções anonimas
+
+ /*var exiber = function(nome){
+  document.write('ola' + nome + ' vsfd')
+ }
+
+ exiber('vitor')*/
