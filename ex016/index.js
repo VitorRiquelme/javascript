@@ -1,4 +1,4 @@
-let variavel = 20
+/*let variavel = 20
 const pi = 3.14 //Const uma vez declarada não consegue mais mudar o valor
 
 console.log(variavel)
@@ -75,4 +75,21 @@ lucas.nome = 'lucas oliveira mendes'
 lucas.idade = 40+' anos'
 
 vitor.descrever()
-lucas.descrever()
+lucas.descrever()*/
+
+class pessoa{
+  nome
+  idade
+  anoDeNascimento
+
+  constructor(nome,idade){
+    this.nome=nome
+    this.idade=idade
+    this.anoDeNascimento= 2022 - idade
+  }
+  descrever(){
+    console.log(`Meu nome é ${this.nome} e eu tenho ${this.idade} anos e eu nasci em ${this.anoDeNascimento}`)
+  }
+}
+let vitor = new pessoa('vitor', 19)
+console.log(vitor)
