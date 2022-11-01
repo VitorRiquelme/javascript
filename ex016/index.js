@@ -37,11 +37,11 @@ console.log(incrementarJuros(100,15))*/
 }
 seuNome('vitor')*/
 
-function idade(sua){
+/*function idade(sua){
   if(sua>=18){
     console.log('voce é maior de idade')
   }else{
     console.log('voce è menor de idade')
   }
 }
-idade(19)
+idade(19)*/
