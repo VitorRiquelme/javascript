@@ -55,4 +55,4 @@ let vitor = {
       console.log(`meu nome é ${this.nome} e minha idade é ${this.idade} e eu peso ${this.peso}`)
   }
 }
-vitor.descrever()
+vitor.descrever()*/
