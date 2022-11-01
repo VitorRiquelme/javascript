@@ -45,3 +45,14 @@ seuNome('vitor')*/
   }
 }
 idade(19)*/
+
+let vitor = {
+  nome : 'vitor riquelme',
+  peso : 50+'kg',
+  idade : 19,
+
+  descrever : function(){
+      console.log(`meu nome é ${this.nome} e minha idade é ${this.idade} e eu peso ${this.peso}`)
+  }
+}
+vitor.descrever()
