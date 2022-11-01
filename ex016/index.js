@@ -1,52 +1,52 @@
-/*let variavel = 20
+let variavel = 20
 const pi = 3.14 //Const uma vez declarada não consegue mais mudar o valor
 
 console.log(variavel)
 
 variavel = 10 / 10
 
-console.log(variavel)*/
+console.log(variavel)*
  
-/*const precodocombustivel 5;79
+const precodocombustivel 5;79
 const gastomedio = 10
 const distancia = 100
 
 let resultado = 100/10*5;79
 
-console.log(resultado)*/
-/*function digaMeuNome(name){
+console.log(resultado)
+function digaMeuNome(name){
   console.log('seu nome é ' + name)
 }
 
-digaMeuNome('Vitor')*/
+digaMeuNome('Vitor')
 
-/*function quadrado(valor){
+function quadrado(valor){
   return valor*valor
 }
 let quadradoDeDez = quadrado(12)
-console.log('o valor da potencia de dez é ' + quadradoDeDez)*/
+console.log('o valor da potencia de dez é ' + quadradoDeDez)
 
-/*function incrementarJuros(valor, juros){
+function incrementarJuros(valor, juros){
   let incrementarJuros = (juros/100)*valor
   return valor + incrementarJuros 
 }
-console.log(incrementarJuros(100,15))*/
+console.log(incrementarJuros(100,15))
 
-/*function seuNome(nome){
+function seuNome(nome){
   console.log('seu nome é ' + nome)
 }
-seuNome('vitor')*/
+seuNome('vitor')
 
-/*function idade(sua){
+function idade(sua){
   if(sua>=18){
     console.log('voce é maior de idade')
   }else{
     console.log('voce è menor de idade')
   }
 }
-idade(19)*/
+idade(19)
 
-/*let vitor = {
+let vitor = {
   nome : 'vitor riquelme',
   peso : 50+'kg',
   idade : 19,
@@ -55,7 +55,7 @@ idade(19)*/
       console.log(`meu nome é ${this.nome} e minha idade é ${this.idade} e eu peso ${this.peso}`)
   }
 }
-vitor.descrever()*/
+vitor.descrever()
 
 class pessoa{
   nome 
