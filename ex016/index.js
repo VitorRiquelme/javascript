@@ -32,7 +32,16 @@ console.log('o valor da potencia de dez é ' + quadradoDeDez)*/
 }
 console.log(incrementarJuros(100,15))*/
 
-function seuNome(nome){
+/*function seuNome(nome){
   console.log('seu nome é ' + nome)
 }
-seuNome('vitor')
+seuNome('vitor')*/
+
+function idade(sua){
+  if(sua>=18){
+    console.log('voce é maior de idade')
+  }else{
+    console.log('voce è menor de idade')
+  }
+}
+idade(19)
