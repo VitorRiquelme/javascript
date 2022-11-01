@@ -7,10 +7,10 @@ variavel = 10 / 10
 
 console.log(variavel)*/
  
-const precodocombustivel = 5;79
+/*const precodocombustivel 5;79
 const gastomedio = 10
 const distancia = 100
 
 let resultado = 100/10*5;79
 
-console.log(resultado)
+console.log(resultado)*/
