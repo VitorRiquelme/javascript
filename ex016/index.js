@@ -46,7 +46,7 @@ seuNome('vitor')*/
 }
 idade(19)*/
 
-let vitor = {
+/*let vitor = {
   nome : 'vitor riquelme',
   peso : 50+'kg',
   idade : 19,
@@ -56,3 +56,23 @@ let vitor = {
   }
 }
 vitor.descrever()*/
+
+class pessoa{
+  nome 
+  idade
+
+  descrever(){
+    console.log(`meu nome é ${this.nome} e eu tenho ${this.idade}`)
+  }
+}
+
+let vitor = new pessoa()
+vitor.nome = 'vitor riquelme oliveira mendes'
+vitor.idade = 30+' anos'
+
+let lucas = new pessoa()
+lucas.nome = 'lucas oliveira mendes'
+lucas.idade = 40+' anos'
+
+vitor.descrever()
+lucas.descrever()
