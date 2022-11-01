@@ -20,8 +20,14 @@ console.log(resultado)*/
 
 digaMeuNome('Vitor')*/
 
-function quadrado(valor){
+/*function quadrado(valor){
   return valor*valor
 }
 let quadradoDeDez = quadrado(12)
-console.log('o valor da potencia de dez é ' + quadradoDeDez)
+console.log('o valor da potencia de dez é ' + quadradoDeDez)*/
+
+function incrementarJuros(valor, juros){
+  let incrementarJuros = (juros/100)*valor
+  return valor + incrementarJuros 
+}
+console.log(incrementarJuros(100,15))
