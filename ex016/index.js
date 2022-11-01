@@ -14,3 +14,14 @@ const distancia = 100
 let resultado = 100/10*5;79
 
 console.log(resultado)*/
+/*function digaMeuNome(name){
+  console.log('seu nome é ' + name)
+}
+
+digaMeuNome('Vitor')*/
+
+function quadrado(valor){
+  return valor*valor
+}
+let quadradoDeDez = quadrado(12)
+console.log('o valor da potencia de dez é ' + quadradoDeDez)
