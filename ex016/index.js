@@ -113,7 +113,7 @@ os carros possuem uma marca uma cor e um gasto médio de combustivel por kilomet
 crie um metodo que que dado a quantidade de quilometro e o preço do combustivel de o valor gasto em reais
 para realizar este percuso*/
 
-class carros{
+/*class carros{
   marca
   cor 
   gastoMedioDeCombustivel
@@ -132,4 +132,22 @@ uno.calcularGastoDePercuso(70, 5)
 console.log(uno.calcularGastoDePercuso(70, 5))
 
 const palio = new carros('Palio','Vermelha',1/10)
-console.log(palio.calcularGastoDePercuso(70, 5 ))
+console.log(palio.calcularGastoDePercuso(70, 5 ))*/
+
+class pessoa{
+  nome
+  altura
+  peso
+  constructor(nome,altura,peso){
+    this.nome=nome
+    this.altura=altura
+    this.peso=peso
+  }
+
+  calcularImc(){
+    return this.peso/(this.altura*this.altura)
+  }
+}
+let vitor = new pessoa('vitor',180,50)
+console.log(vitor.calcularImc())
+
