@@ -77,7 +77,7 @@ lucas.idade = 40+' anos'
 vitor.descrever()
 lucas.descrever()*/
 
-class pessoa{
+/*class pessoa{
   nome
   idade
   anoDeNascimento
@@ -105,4 +105,31 @@ function compararPessoas(pessoa1,pessoa2){
 const vitor = new pessoa('vitor', 20)
 const lucas = new pessoa('lucas', 20)
 
-compararPessoas(vitor,lucas)
+compararPessoas(vitor,lucas)/*
+
+
+/*Crie uma classe para comparar carros 
+os carros possuem uma marca uma cor e um gasto médio de combustivel por kilometro rodado.
+crie um metodo que que dado a quantidade de quilometro e o preço do combustivel de o valor gasto em reais
+para realizar este percuso*/
+
+class carros{
+  marca
+  cor 
+  gastoMedioDeCombustivel
+
+  constructor(marca,cor,gastoMedioDeCombustivel){
+    this.marca=marca
+    this.cor=cor
+    this.gastoMedioDeCombustivel=gastoMedioDeCombustivel
+  }
+  calcularGastoDePercuso(distancia,precodocombustivel){
+    return distancia*this.gastoMedioDeCombustivel*precodocombustivel
+  }
+}
+const uno = new carros('Fiat','azul',1/12)
+uno.calcularGastoDePercuso(70, 5)
+console.log(uno.calcularGastoDePercuso(70, 5))
+
+const palio = new carros('Palio','Vermelha',1/10)
+console.log(palio.calcularGastoDePercuso(70, 5 ))
