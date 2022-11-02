@@ -33,7 +33,7 @@ let nome = 'vitor riquelme oliveira mendes'
 for (let i = 0; i <= nome.length; i++) {
   const letras = nome[i];
   console.log(letras)
-}*/
+}
 
 let notas = []
 
@@ -51,6 +51,7 @@ for (let i = 0; i < notas.length; i++) {
   soma = soma + nota
 }
 const media = soma / notas.length
-console.log(media)
+console.log(media)*/
+
 
 
