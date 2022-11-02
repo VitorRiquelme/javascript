@@ -91,5 +91,18 @@ class pessoa{
     console.log(`Meu nome é ${this.nome} e eu tenho ${this.idade} anos e eu nasci em ${this.anoDeNascimento}`)
   }
 }
-let vitor = new pessoa('vitor', 19)
-console.log(vitor)
+
+function compararPessoas(pessoa1,pessoa2){
+  if(pessoa1.idade>pessoa2.idade){
+    console.log('O ' + pessoa1.nome + ' é mais velho que o ' + pessoa2.nome)
+  }else if(pessoa2.idade>pessoa1.idade){
+    console.log('O ' + pessoa2.nome + ' é mais velho que o ' + pessoa1.nome)
+  }else{
+    console.log('O ' + pessoa1.nome + ' tem a mesma idade que ' + pessoa2.nome)
+  }
+}
+
+const vitor = new pessoa('vitor', 20)
+const lucas = new pessoa('lucas', 20)
+
+compararPessoas(vitor,lucas)
