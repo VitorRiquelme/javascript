@@ -1,3 +1,8 @@
-const funcoes = require('./index')
+const { gets, print} = require('./index')
 
-console.log(funcoes.gets())
+const numerosSorteados = []
+
+for (let i = 0; i < 5; i++) {
+  const numeroSorteado = gets();
+  
+}
