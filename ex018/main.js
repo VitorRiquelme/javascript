@@ -1,3 +1,3 @@
 const funcoes = require('./index')
 
-console.log(funcoes)
+console.log(funcoes.gets())
