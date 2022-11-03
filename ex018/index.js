@@ -1,0 +1,1 @@
+//Get e print javascript
