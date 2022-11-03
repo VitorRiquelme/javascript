@@ -53,5 +53,10 @@ for (let i = 0; i < notas.length; i++) {
 const media = soma / notas.length
 console.log(media)*/
 
+const numeros = [0,1,2,3,4,5,6,7,8,9,10]
 
+for (let i = 0; i <= numeros.length; i = i+2) {
+  const numerospar = numeros[i]
+  console.log(numerospar)
+}
 
