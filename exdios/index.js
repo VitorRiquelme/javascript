@@ -2,7 +2,9 @@
 //javascript output
 //Usar o documnet.write depois de o documneto html já ter sido carregado ele ira sobrepor todo o elemento
 
-alert("Iae gayzao pae kkk")
+let z,x,y
+x=10
+y=20
+z=x+y
 
-document.write("oláaa")
-
+document.getElementById("demo").innerHTML = "o valor da soma de x + y é "+ z + "."
