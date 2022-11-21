@@ -1,5 +1,5 @@
 
 //javascript output
 
-document.getElementById("demos").innerHTML = 5+6
+document.write("oláaa")
 
