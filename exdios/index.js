@@ -10,4 +10,5 @@ z=x+y;
 
 document.getElementById("demo").innerHTML = "o valor da soma de x + y é "+ z + ".";*/
 
-
+//Você não pode redeclara a variavel let let = john; let =x; nao pode
+//Já com var voce pode redeclarar a variavael var=john; var=x; pode
