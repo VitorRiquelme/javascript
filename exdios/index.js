@@ -12,8 +12,23 @@ document.getElementById("demo").innerHTML = "o valor da soma de x + y é "+ z + 
 
 //Você não pode redeclara a variavel let let = john; let =x; nao pode
 //Já com var voce pode redeclarar a variavael var=john; var=x; pode
-/* variaves criados dentro de escopo de bloco não podem ser acessados pelo escopo global ex:
+/* variaves LET criados dentro de escopo de bloco não podem ser acessados pelo escopo global ex:
+ function amigo(fodase){
+  let =x;
+ };
+
+ Já a variavel var pode ser acessada pelo escopo global mesmo sendo criada dentro deum escopo de bloco ex:
  function amigo(fodase){
   var =x;
  };
+
+ Variaves declaradas com var podem ser redeclaradas mesmo com escopo de bloco ex:
+var = y;
+ function fodase(){
+  var =x;
+ };
+
+ Aqui ela estara valendo como x e não y
  */
+
+
