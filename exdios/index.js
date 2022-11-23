@@ -29,6 +29,16 @@ var = y;
  };
 
  Aqui ela estara valendo como x e não y
+
+ Já usando a variavel let isso não é possivel pois uma variavel definida dentro de um escopo de bloco ão pode ser acessado pelo escopo global ex:
+
+ let vitor =2;
+
+ function(){
+  let vitor = 3;
+ };
+ 
+ Aque ela estara vealendo com 2 e não 3
  */
 
 
