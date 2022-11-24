@@ -41,6 +41,8 @@ var = y;
  Aque ela estara vealendo com 2 e não 3
 
  Const
+
+ variaves declaradas com const não podem ser redeclaradas
  */
 
 
