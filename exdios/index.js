@@ -42,8 +42,10 @@ var = y;
 
  Const
 
- variaves declaradas com const não podem ser redeclaradas
- variaves declaradas com const não podem ser renomeadas
+ variaves declaradas com const não podem ser redeclaradas;
+ variaves declaradas com const não podem ser renomeadas;
+ variaves declaradas com const tem escopo de bloco;
+
  
  */
 
