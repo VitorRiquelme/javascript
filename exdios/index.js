@@ -39,6 +39,8 @@ var = y;
  };
  
  Aque ela estara vealendo com 2 e não 3
+
+ Const
  */
 
 
