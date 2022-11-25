@@ -71,7 +71,17 @@ correto
 
  carro[0] = fusca
 
- 
+ constante tem escopo de bloco igual let entao
+
+ variaves dentro de um escopo sao diferentes das de fora do escopo
+
+ function(){
+  const x = 2
+ }
+
+ const x = 10 
+
+ diferentes aqui fora o x=10 e 
  */
 
 
