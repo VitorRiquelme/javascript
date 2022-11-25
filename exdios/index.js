@@ -45,8 +45,24 @@ var = y;
  variaves declaradas com const não podem ser redeclaradas;
  variaves declaradas com const não podem ser renomeadas;
  variaves declaradas com const tem escopo de bloco;
+ Variaves declaradas com const precisam que um valor seja atribuido no momneto em que forem declaradas]
 
+
+correto
+ const vitor = 12
+ 
+ errado
+ conts vitor 
+ vitor =12
   
+
+ Sempre usar const quando voce tiver certeza que a variavel nao pode ser mudada
+
+ use const quando voce declarar um novo :
+ Array
+ Obejeto
+ Function
+ 
  */
 
 
