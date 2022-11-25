@@ -62,6 +62,15 @@ correto
  Array
  Obejeto
  Function
+
+ Voce pode mudar os elemnetos do array mas nao a constante array
+ ex:
+ const carro = [Toyta,audi,ferrari]
+
+ voce pode adicionar elementos
+
+ carro[0] = fusca
+
  
  */
 
