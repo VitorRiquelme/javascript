@@ -84,5 +84,7 @@ correto
  diferentes aqui fora o x=10 e 
  */
 
-
+ let x =10
+ x +=5
+ console.log(x)
 
