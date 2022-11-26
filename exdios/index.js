@@ -84,9 +84,5 @@ correto
  diferentes aqui fora o x=10 e 
  */
 
- function minhafuncao(v1,v2){
-  return v1 * v2
- }
-
- console.log(minhafuncao(2,3))
+ 
 
