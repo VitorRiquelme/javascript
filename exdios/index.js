@@ -82,6 +82,7 @@ correto
  const x = 10 
 
  diferentes aqui fora o x=10 e 
+ 
  */
 
  
