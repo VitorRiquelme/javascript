@@ -82,7 +82,7 @@ correto
  const x = 10 
 
  diferentes aqui fora o x=10 e 
- */
+ 
 
 //Objetos
 //É uma pratica comum defenir obejtos com a variavel const
@@ -96,7 +96,18 @@ correto
 };
 //nome é a propriedade e vitor é o valor da propriedade
 //Metodo de um objeto é uma função amarzenada como um valor de uma propriedade
- console.log(pessoa.nome, pessoa.sobrenome)
+ console.log(pessoa.nome, pessoa.sobrenome)*/
+
+ const pessoa = {
+    nome:"vitor",
+   idade:20,
+   sobrenome:"riquelme",
+   nomecompleto : function(){
+    return this.nome + "" + this.sobrenome;
+   }
+  };
+
+  document.getElementById("demo").innerHTML = pessoa.nomecompleto
 
 
 
