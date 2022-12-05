@@ -94,8 +94,11 @@ correto
   sobrenome:"riquelme", 
   idade:20
 };
-
+//nome é a propriedade e vitor é o valor da propriedade
+//Metodo de um objeto é uma função amarzenada como um valor de uma propriedade
  console.log(pessoa.nome, pessoa.sobrenome)
+
+
 
  
 
