@@ -82,8 +82,12 @@ correto
  const x = 10 
 
  diferentes aqui fora o x=10 e 
- 
  */
+
+//Objeto
+ const carro = {tipo:"fiat", modelo:"300", cor:"azul"};
+
+ console.log(carro.cor)
 
  
 
