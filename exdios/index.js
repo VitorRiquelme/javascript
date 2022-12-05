@@ -99,15 +99,15 @@ correto
  console.log(pessoa.nome, pessoa.sobrenome)*/
 
  const pessoa = {
-    nome:"vitor",
+    nome:"Vitor",
    idade:20,
-   sobrenome:"riquelme",
+   sobrenome:"Riquelme",
    nomecompleto : function(){
-    return this.nome + "" + this.sobrenome;
+    return this.nome + " " + this.sobrenome;
    }
   };
 
-  document.getElementById("demo").innerHTML = pessoa.nomecompleto
+  document.getElementById("demo").innerHTML = pessoa.nomecompleto()
 
 
 
