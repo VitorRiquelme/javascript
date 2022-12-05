@@ -109,6 +109,10 @@ correto
 
   document.getElementById("demo").innerHTML = pessoa.nomecompleto(); */
 
+  //This se refere ao valor da propriedade do objeto
+
+  
+
 
 
  
