@@ -107,7 +107,7 @@ correto
    }
   };
 
-  document.getElementById("demo").innerHTML = pessoa.nomecompleto()
+  document.getElementById("demo").innerHTML = pessoa.nomecompleto();
 
 
 
