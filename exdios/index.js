@@ -87,7 +87,12 @@ correto
 //Objetos
 //É uma pratica comum defenir obejtos com a variavel const
  const carro = {tipo:"fiat", modelo:"300", cor:"azul"};
- const pessoa ={nome:"vitor", sobrenome:"riquelme", idade:"20"};
+ 
+ const pessoa ={
+  nome:"vitor",
+  sobrenome:"riquelme", 
+  idade:20
+};
 
  console.log(pessoa.nome, pessoa.sobrenome)
 
