@@ -96,7 +96,7 @@ correto
 };
 //nome é a propriedade e vitor é o valor da propriedade
 //Metodo de um objeto é uma função amarzenada como um valor de uma propriedade
- console.log(pessoa.nome, pessoa.sobrenome)*/
+ console.log(pessoa.nome, pessoa.sobrenome)
 
  const pessoa = {
   nome:"Vitor",
@@ -113,8 +113,10 @@ correto
 function mult(a,b){
   return a*b
 }
- console.log(mult(2,4))
- 
+ console.log(mult(2,4))*/
+
+ //javascript strings
+
 
  
 
