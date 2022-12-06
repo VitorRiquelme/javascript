@@ -115,9 +115,14 @@ function mult(a,b){
 }
  console.log(mult(2,4))*/
 
- //javascript strings
+ //javascript strings são usadas para armazenar e manipular textos 
 
- 
+ let texto =  "ABCDEFGHIJKLMNOPQRSTUVXYZ"
+ let tamanho = texto.length
+
+ console.log(tamanho)
+
+
 
 
  
