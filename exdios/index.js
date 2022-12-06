@@ -121,7 +121,9 @@ function mult(a,b){
  let tamanho = texto.length
 
  console.log(tamanho)*/
- 
+  
+ let vitor = "vitor tem um \"pirocao\" ta louco po kkkkkk"
+ console.log(vitor)
 
 
 
