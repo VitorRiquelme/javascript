@@ -152,7 +152,7 @@ console.log(vitor)
 
 let vitor = `"vitor comummente dá o cu dele" `
 
-console.log(vitor)*/
+console.log(vitor)
 
 //é preferivel que se use acento a aspas duplas e aspas simples
 
@@ -166,5 +166,11 @@ let texto = `${name} tem ${idade} anos, ${peso}kg e ${altura} de altura `
 
 console.log(texto)
 
+let carro = 20.00
+let ipva = 200
+
+let conta = `${(carro*2)}${(ipva*4)/3}`
+
+console.log(conta)*/
  
 
