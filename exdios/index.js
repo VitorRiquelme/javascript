@@ -122,11 +122,16 @@ function mult(a,b){
 
  console.log(tamanho)*/
   // a \" \" insere aspas duplas na frase sendo assim \' \' inseri aspas simples na fraase
- function myFunction(){
+ /*function myFunction(){
   let texto = document.getElementById("demo").innerHTML;
   document.getElementById("demo").innerHTML = texto.replace("Ola", "vai tomar no cu tranquilo");
- }
+ }*/
+ let texto = "Gatos são foofs eu amo gatos e gatinhos fofinhos"
+  texto = texto.replaceAll("Gatos","Cachorros")
+  texto = texto.replaceAll("gatos","cachorros")
+  texto = texto.replaceAll("gatinhos","cachorrinhos")
 
+console.log(texto)
 
 
 
