@@ -117,13 +117,15 @@ function mult(a,b){
 
  //javascript strings são usadas para armazenar e manipular textos 
 /*propriedade length para ver o tamanho da string
- let texto =  "ABCDEFGHIJKLMNOPQRSTUVXYZ"
+ let texto =  "ABCDEFGHIJKLMNOPQRSTUVXwYZ"
  let tamanho = texto.length
 
  console.log(tamanho)*/
-  
- let vitor = "vitor tem um \"pirocao\" ta louco po kkkkkk"
- console.log(vitor)
+  // a \" \" insere aspas duplas na frase sendo assim \' \' inseri aspas simples na fraase
+ function myFunction(){
+  let texto = document.getElementById("demo").innerHTML;
+  document.getElementById("demo").innerHTML = texto.replace("Ola", "vai tomar no cu tranquilo");
+ }
 
 
 
