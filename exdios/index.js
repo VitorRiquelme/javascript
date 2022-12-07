@@ -148,11 +148,13 @@ console.log(vito)
 
 let texto = "conheci um viado chamada vitor é um cara engraçado, porém vitor também é estranho"
 let vitor = texto.lastIndexOf("vitor")
-console.log(vitor)*/
+console.log(vitor)
 
 let vitor = `"vitor comummente dá o cu dele" `
 
-console.log(vitor)
+console.log(vitor)*/
+
+//é preferivel que se use acento a aspas duplas e aspas simples
 
 
 
