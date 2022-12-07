@@ -171,9 +171,15 @@ let ipva = 200
 
 let conta = `${(carro*2)}${(ipva*4)/3}`
 
-console.log(conta)*/
+console.log(conta)
 
 //Numeros em javascript
+
+let = 120e5 //numero muito grande pode ser escrito desta menira cietifica  e + o numero de zeros que vem depois
+let peso = 40+"kg"
+
+console.log(peso)*/
+
 
 
  
