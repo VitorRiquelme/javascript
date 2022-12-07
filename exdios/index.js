@@ -156,15 +156,15 @@ console.log(vitor)*/
 
 //é preferivel que se use acento a aspas duplas e aspas simples
 
-let texto = `sexo
-cachorro
-gato
-cobraa
-`;
+//Acento permite o uso de multiplas strings
+const name = "vitor riquelme"
+const idade = 20
+let peso = 50
+let altura = "1.80"
+
+let texto = `${name} tem ${idade} anos, ${peso}kg e ${altura} de altura `
 
 console.log(texto)
-
-
 
  
 
