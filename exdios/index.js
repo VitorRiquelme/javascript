@@ -122,7 +122,7 @@ function mult(a,b){
 
  console.log(tamanho)*/
   // a \" \" insere aspas duplas na frase sendo assim \' \' inseri aspas simples na fraase
- function myFunction(){
+ /*function myFunction(){
   let texto = document.getElementById("demo").innerHTML;
   document.getElementById("demo").innerHTML = texto.replace("Ola", "vai tomar no cu tranquilo");
  }
@@ -147,8 +147,8 @@ let vito = texto.charAt(4)
 console.log(vito)
 
 let texto = "conheci um viado chamada vitor é um cara engraçado, porém vitor também é estranho"
-let vitor = texto.indexOf("vitor")
-console.log(vitor)
+let vitor = texto.lastIndexOf("vitor")
+console.log(vitor)*/
 
 
 
