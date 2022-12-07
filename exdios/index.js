@@ -156,6 +156,14 @@ console.log(vitor)*/
 
 //é preferivel que se use acento a aspas duplas e aspas simples
 
+let texto = `sexo
+cachorro
+gato
+cobraa
+`;
+
+console.log(texto)
+
 
 
  
