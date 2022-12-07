@@ -178,13 +178,13 @@ console.log(conta)
 let = 120e5 //numero muito grande pode ser escrito desta menira cietifica  e + o numero de zeros que vem depois
 let peso = 40+"kg"
 
-console.log(peso)*/
+console.log(peso)
  
 //apenas o primeiro numero é retornado em parseint
 //parse int transfroma uma string em um numero
 //parseint retorna numeros inteiro e parsefloat retorna numeros com virgula e etc
 
 let x = parseInt("-12 12")
- console.log(x)
+ console.log(x)*/
  
 
