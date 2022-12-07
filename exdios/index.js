@@ -150,6 +150,10 @@ let texto = "conheci um viado chamada vitor é um cara engraçado, porém vitor 
 let vitor = texto.lastIndexOf("vitor")
 console.log(vitor)*/
 
+let vitor = `"vitor comummente dá o cu dele" `
+
+console.log(vitor)
+
 
 
  
