@@ -187,6 +187,6 @@ console.log(peso)
 let x = parseInt("-12 12")
  console.log(x)*/
 
- 
+ //Arrays
  
 
