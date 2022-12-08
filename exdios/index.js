@@ -203,11 +203,20 @@ let x = parseInt("-12 12")
 
 carros [3] = "vitor"
 
-console.log(carros);*/
+console.log(carros);
 
 const pessoa = {nome:"vitor", idade:45,sobrenome:"riquelme"}
 
-console.log(pessoa.nome)
+console.log(tamanho)*/
+
+//.pop() RETIRA O ULTIMO ELEMENTO DE UM ARRAY
+const nomes = ["viotr","Lucars","papa"]
+
+
+nomes.push("manos")
+nomes.pop()
+
+console.log(nomes)
 
  
 
