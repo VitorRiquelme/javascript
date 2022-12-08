@@ -188,5 +188,11 @@ let x = parseInt("-12 12")
  console.log(x)*/
 
  //Arrays em javascript
+ //Um array é uma variavel especial que pode armazena mais de um valor
+
+ let carros = ["fiat","uno","palio"];
+
+ console.log(carros);
+ 
  
 
