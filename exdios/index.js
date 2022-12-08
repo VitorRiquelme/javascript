@@ -229,4 +229,4 @@ const num2 = num.map(myFunction);
 };
 
  console.log(num2)*/
-
+ 
