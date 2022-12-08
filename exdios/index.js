@@ -210,11 +210,12 @@ const pessoa = {nome:"vitor", idade:45,sobrenome:"riquelme"}
 console.log(tamanho)*/
 
 //.pop() RETIRA O ULTIMO ELEMENTO DE UM ARRAY
+//.shift() remove o primeiro elemnte do um array
 const nomes = ["viotr","Lucars","papa"]
 
 
 nomes.push("manos")
-nomes.pop()
+nomes.shift()
 
 console.log(nomes)
 
