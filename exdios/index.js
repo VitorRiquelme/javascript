@@ -189,10 +189,16 @@ let x = parseInt("-12 12")
 
  //Arrays em javascript
  //Um array é uma variavel especial que pode armazena mais de um valor
+ //É uma pratica comum declarar arrays com const
+ //voce pode adcicionar os valores do array depois 
+ //você pode acessar o valor do elemento usando o numero da posição do valor
+ const carros = [
+  "kombi",
+  "uno",
+  "volvo",
+  "mangalia"];
 
- let carros = ["fiat","uno","palio"];
+console.log(carros[2]);
 
- console.log(carros);
- 
  
 
