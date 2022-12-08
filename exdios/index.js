@@ -192,13 +192,18 @@ let x = parseInt("-12 12")
  //É uma pratica comum declarar arrays com const
  //voce pode adcicionar os valores do array depois 
  //você pode acessar o valor do elemento usando o numero da posição do valor
+ // um elemento array começa na posição 0
+ //voce também pode mudar o valor do elemento pelo numero da posição onde ele está
+
  const carros = [
   "kombi",
   "uno",
   "volvo",
   "mangalia"];
 
-console.log(carros[2]);
+carros [3] = "vitor"
+
+console.log(carros);
 
  
 
