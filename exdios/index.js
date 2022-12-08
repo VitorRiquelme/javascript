@@ -207,7 +207,7 @@ console.log(carros);
 
 const pessoa = {nome:"vitor", idade:45,sobrenome:"riquelme"}
 
-console.log(tamanho)*/
+console.log(tamanho)
 
 //.pop() RETIRA O ULTIMO ELEMENTO DE UM ARRAY
 //.shift() remove o primeiro elemnte do um array
@@ -220,5 +220,13 @@ nomes.splice(1,0, "manuele")
 
 console.log(nomes)
 
- 
+const num = [12,12,23,354,756];
+
+const num2 = num.map(myFunction);
+
+ function myFunction(value){
+  return value * 2
+};
+
+ console.log(num2)*/
 
