@@ -185,7 +185,7 @@ console.log(peso)
 //parseint retorna numeros inteiro e parsefloat retorna numeros com virgula e etc
 
 let x = parseInt("-12 12")
- console.log(x)*/
+ console.log(x)
 
  //Arrays em javascript
  //Um array é uma variavel especial que pode armazena mais de um valor
@@ -203,7 +203,11 @@ let x = parseInt("-12 12")
 
 carros [3] = "vitor"
 
-console.log(carros);
+console.log(carros);*/
+
+const pessoa = {nome:"vitor", idade:45,sobrenome:"riquelme"}
+
+console.log(pessoa.nome)
 
  
 
