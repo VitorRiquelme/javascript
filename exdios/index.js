@@ -211,11 +211,12 @@ console.log(tamanho)*/
 
 //.pop() RETIRA O ULTIMO ELEMENTO DE UM ARRAY
 //.shift() remove o primeiro elemnte do um array
+//.unshift() ADICIONA UM ELEMENTO NO COMEÇO DE ARRAY
+//splice() adiciona um elemento na posiçãi especificada do array também pode remover elementos especififaa
 const nomes = ["viotr","Lucars","papa"]
 
 
-nomes.push("manos")
-nomes.shift()
+nomes.splice(1,0, "manuele")
 
 console.log(nomes)
 
