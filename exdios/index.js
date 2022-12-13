@@ -230,5 +230,5 @@ const num2 = num.map(myFunction);
 
  console.log(num2)*/
  
- //data em javascript
+ //data em javascript 
  
