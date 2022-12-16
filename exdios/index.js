@@ -232,12 +232,14 @@ const num2 = num.map(myFunction);
  
  //data em javascript 
 
-*/
+
 
 const fodase = new Date();
  
 var varia = fodase.toUTCString()
 
 console.log(varia);
- // você é obrigado a emitir 2 paramatros ou ira ser considerado milesegundos
+ // você é obrigado a emitir 2 paramatros ou ira ser considerado milesegundos*/
+
+ 
  
