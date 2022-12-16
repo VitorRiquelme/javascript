@@ -234,5 +234,8 @@ const num2 = num.map(myFunction);
 
 */
 
+const fodase = new Date();
+
+console.log(fodase);
 
  
