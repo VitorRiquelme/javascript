@@ -237,5 +237,5 @@ const num2 = num.map(myFunction);
 const fodase = new Date();
 
 console.log(fodase);
-
+ // você é obrigado a emitir 2 paramatros ou ira ser considerado milesegundos
  
